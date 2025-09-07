@@ -16,7 +16,7 @@ const RegisterForm = () => {
         event.preventDefault()
 
         const userDetails = {email, password, gender}
-        const apiUrl = `http://localhost:5000/register`
+        const apiUrl = `${process.env.REACT_APP_API_URL}/register`
         const options = {
             method: 'POST',
             headers: {

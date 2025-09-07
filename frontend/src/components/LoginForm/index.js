@@ -26,7 +26,7 @@ const LoginForm = props => {
         event.preventDefault()
 
         const userDetails = {email, password}
-        const apiUrl = `http://localhost:5000/login`
+        const apiUrl = `${process.env.REACT_APP_API_URL}/login`
         const options = {
             method: 'POST',
             headers: {
