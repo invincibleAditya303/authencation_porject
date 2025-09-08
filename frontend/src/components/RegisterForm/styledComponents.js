@@ -17,6 +17,11 @@ export const RegisterContainer = styled.div`
     align-items: center;
     border-radius: 30px;
     border: 2px #324155 solid;
+
+    @media (width <= 776px) {
+        height: 80vh;
+        flex-direction: column;
+    }
 `
 
 export const RegisterImage = styled.img`
@@ -24,6 +29,13 @@ export const RegisterImage = styled.img`
     height: 40vh;
     margin-left: 15px;
     border-radius: 20px;
+
+    @media (width <= 776px) {
+        width: 70vw;
+        height: 35vh;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
 `
 
 export const RegisterFormContainer = styled.form`
@@ -36,12 +48,25 @@ export const RegisterFormContainer = styled.form`
     border-radius: 20px;
     border: 2px #324155 solid;
     margin-right: 15px;
+
+    @media (width <= 776px) {
+        width: 70vw;
+        height: 40vh;
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
 `
 
 export const RegisterInputContainer = styled.div`
     width: 35vw;
     height: 8vh;
     margin-top: 20px;
+
+    @media (width <= 776px) {
+        width: 60vw;   
+        height: 6vh;
+    }
 `
 
 export const RegisterLabelHeading = styled.label`
@@ -50,6 +75,10 @@ export const RegisterLabelHeading = styled.label`
     font-family: "Roboto";
     padding-left: 5px;
     padding-bottom: 5px;
+
+    @media (width <= 776px) {
+        font-size: 14px;
+    }
 `
 
 export const RegsiterInputText = styled.input`
@@ -63,6 +92,11 @@ export const RegsiterInputText = styled.input`
     border-radius: 20px;
     border: 2px #324155 solid;
     outline: none;
+
+    @media (width <= 776px) {
+        height: 5vh;    
+        font-size: 14px;
+    }
 `
 
 export const SubmitButton = styled.button`
@@ -78,16 +112,30 @@ export const SubmitButton = styled.button`
     margin-top: 20px;
     cursor: pointer;
     outline: none;
+
+    @media (width <= 776px) {
+        width: 60px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
 `
 
 export const RegisterErrmsg = styled.p`
     color: hsla(7, 78%, 49%, 1.00);
     font-size: 16px;
     font-family: "Roboto";
+
+    @media (width <= 776px) {
+        font-size: 12px;
+    }
 `
 
 export const RegisterSuccessMsg = styled.p`
     color: #2e6b22ff;
     font-size: 18px;
     font-family: "Roboto";
+
+    @media (wisth <= 776px) {
+        font-size: 12px;
+    }
 `

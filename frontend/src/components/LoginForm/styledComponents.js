@@ -17,6 +17,11 @@ export const LoginContainer = styled.div`
     align-items: center;
     border-radius: 30px;
     border: 2px #324155 solid;
+
+    @media (width <= 776px) {
+        height: 80vh;
+        flex-direction: column;
+    }
 `
 
 export const LoginImage = styled.img`
@@ -24,6 +29,13 @@ export const LoginImage = styled.img`
     height: 40vh;
     margin-left: 15px;
     border-radius: 20px;
+
+    @media (width <= 776px) {
+        width: 70vw;
+        height: 35vh;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
 `
 
 export const LoginFormContainer = styled.form`
@@ -36,12 +48,25 @@ export const LoginFormContainer = styled.form`
     border-radius: 20px;
     border: 2px #324155 solid;
     margin-right: 15px;
+
+    @media (width <= 776px) {
+        width: 70vw;
+        height: 40vh;
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 `
 
 export const InputContainer = styled.div`
     width: 35vw;
     height: 8vh;
     margin-top: 20px;
+
+    @media (width <= 776px) {
+        width: 60vw;
+        height: 6vh;
+    }
 `
 
 export const LabelHeading = styled.label`
@@ -50,6 +75,10 @@ export const LabelHeading = styled.label`
     font-family: "Roboto";
     padding-left: 5px;
     padding-bottom: 5px;
+
+    @media (width <= 776px) {
+        font-size: 14px;
+    }
 `
 
 export const InputText = styled.input`
@@ -63,6 +92,11 @@ export const InputText = styled.input`
     border-radius: 20px;
     border: 2px #324155 solid;
     outline: none;
+
+    @media (width <= 776px) {
+        height: 5vh;
+        font-size: 14px;
+    }
 `
 
 export const ButtonsContainer = styled.div`
@@ -71,6 +105,10 @@ export const ButtonsContainer = styled.div`
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+
+    @media (width <= 776px) {
+        width: 40vw;
+    }
 `
 
 export const LoginButton = styled.button`
@@ -85,6 +123,11 @@ export const LoginButton = styled.button`
     border-width: 0px;
     cursor: pointer;
     outline: none;
+
+    @media (width <= 776px) {
+        width: 60px;
+        font-size: 10px;
+    }
 `
 
 export const Errmsg = styled.p`
@@ -92,4 +135,7 @@ export const Errmsg = styled.p`
     font-size: 16px;
     font-family: "Roboto";
 
+    @media (width <= 776px) {
+        font-size: 12px;
+    }
 `

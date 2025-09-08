@@ -57,7 +57,7 @@ const RegisterForm = () => {
                         <RegsiterInputText type="password" placeholder="Enter password" value={password} id="password" onChange={onChangeRegisterPassword} />
                     </RegisterInputContainer>
                     <RegisterInputContainer>
-                        <RegisterLabelHeading htmlFor="gender">Email</RegisterLabelHeading>
+                        <RegisterLabelHeading htmlFor="gender">Gender</RegisterLabelHeading>
                         <RegsiterInputText type="text" placeholder="Enter gender" value={gender} id="gender" onChange={onChangeRegisterGender} />
                     </RegisterInputContainer>
                     <SubmitButton type="submit">Submit</SubmitButton>
