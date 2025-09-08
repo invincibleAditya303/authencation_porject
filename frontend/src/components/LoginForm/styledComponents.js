@@ -108,6 +108,7 @@ export const ButtonsContainer = styled.div`
 
     @media (width <= 776px) {
         width: 40vw;
+        margin-top: 20px;
     }
 `
 
