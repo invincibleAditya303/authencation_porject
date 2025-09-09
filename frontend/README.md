@@ -1,5 +1,3 @@
-<img width="1366" height="720" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/cd3cd759-ad02-41ef-8d8d-14b3ae3bc9e0" />
-<img width="1366" height="720" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/87d1b1b4-7927-414c-bad0-3f4b1459769c" />
 # Klickks Login & Logout Flow
 
 A simple authentication system using React and Node.js + Express with SQLite.
@@ -133,3 +131,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### checkput the screenshots and vdeo demo here
+<img width="1366" height="600" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/2f82bab7-636b-4c84-8a03-5fd13f5e7481" /><img width="1366" height="604" alt="Screenshot 2025-09-09 222538" src="https://github.com/user-attachments/assets/08946907-165b-456b-8923-93e478d48972" />
+
+<img width="1366" height="600" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/2f82bab7-636b-4c84-8a03-5fd13f5e7481" /><img width="1366" height="613" alt="Screenshot 2025-09-09 223202" src="https://github.com/user-attachments/assets/709d9308-e56f-47bf-8fc8-da8d5ddfeb8c" />
