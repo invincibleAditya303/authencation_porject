@@ -18,7 +18,7 @@ const LoginForm = props => {
     }
 
     const onSubmitLoginFailure = errMsg => {
-        setErrMsg(errMsg)
+        setErrMsg(`${errMsg}`)
     }
 
 
@@ -52,9 +52,11 @@ const LoginForm = props => {
         if (response.ok) {
             onSubmitSuccess(data)
         } else {
-            onSubmitLoginFailure(data)
+            onSubmitLoginFailure(data.error)
         }
     }
+
+    console.log(errMsg)
 
     return (
         <LoginBgContainer>
