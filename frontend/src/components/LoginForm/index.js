@@ -25,6 +25,14 @@ const LoginForm = props => {
     const onSubmitLoginForm = async event => {
         event.preventDefault()
 
+        if (
+            !email.trim() ||
+            !password.trim()
+        ) {
+                setErrMsg('Please fill in all fields.')
+                return
+            }
+
         const userDetails = {email, password}
         const apiUrl = `${process.env.REACT_APP_API_URL}/login`
         const options = {

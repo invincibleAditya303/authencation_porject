@@ -93,8 +93,8 @@ app.post('/login', async (request, response) => {
     const dbUser = await db.get(getUserQuery)
 
     if (dbUser === undefined) {
-        response.status(400)
-        response.json.error('Invalid user')
+        response.status(401)
+        response.json('Invalid user')
     } else {
         const isPasswordMatched = await bcrypt.compare(password, dbUser.password)
 
@@ -109,7 +109,7 @@ app.post('/login', async (request, response) => {
             response.status(200)
             response.json(jwtToken)
         } else {
-            response.status(400)
+            response.status(401)
             response.json('Invalid password')
         }
     }
