@@ -53,6 +53,30 @@ You may also see any lint errors in the console.
 3. Access protected pages.
 4. Logout to clear the session cookie.
 
+### How to Use the Register Page
+
+1. Navigate to https://authencation-porject.vercel.app<img width="1366" height="720" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/db8ea197-5ee1-4c2f-8db5-661ea012e6e7" />
+/register`.
+2. Fill in the registration form with:
+   - **Email**: your email address
+   - **Password**: choose a secure password
+3. Click **"Submit"**.
+4. On success, you'll be redirected to the **Login** page.
+5. Now login with your new credentials from the credentials table above.
+
+## Sample Credentials (Pre-seeded)
+
+To help you get started quickly, here are some pre-created user accounts seeded in the SQLite database:
+
+| Email                    | Password      |
+|--------------|---------------------------|
+| `bob@example.com`       | `bob@123` |
+
+You can log in using any of these credentials:
+- Navigate to `(https://authencation-porject.vercel.app/login)`
+- Use the table above to test registration, login, or session persistence.
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
