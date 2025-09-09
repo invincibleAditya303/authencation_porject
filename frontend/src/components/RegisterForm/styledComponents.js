@@ -110,14 +110,13 @@ export const SubmitButton = styled.button`
     border-radius: 8px;
     border-width: 0px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     cursor: pointer;
     outline: none;
 
     @media (width <= 776px) {
         width: 60px;
         font-size: 12px;
-        margin-bottom: 20px;
     }
 `
 
@@ -125,6 +124,7 @@ export const RegisterErrmsg = styled.p`
     color: hsla(7, 78%, 49%, 1.00);
     font-size: 16px;
     font-family: "Roboto";
+    padding-bottom: 15px;
 
     @media (width <= 776px) {
         font-size: 12px;
@@ -135,6 +135,7 @@ export const RegisterSuccessMsg = styled.p`
     color: #2e6b22ff;
     font-size: 18px;
     font-family: "Roboto";
+    padding-bottom: 15px;
 
     @media (wisth <= 776px) {
         font-size: 12px;
