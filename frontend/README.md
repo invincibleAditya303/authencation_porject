@@ -20,6 +20,14 @@ Build a foundational login/logout flow with session-based authentication.
 - SQLite
 - bcrypt, express-session (or similar)
 
+  ### checkput the screenshots and vdeo demo here
+
+<img width="1366" height="600" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/2f82bab7-636b-4c84-8a03-5fd13f5e7481" /><img width="1366" height="604" alt="Screenshot 2025-09-09 222538" src="https://github.com/user-attachments/assets/08946907-165b-456b-8923-93e478d48972" />
+
+<img width="1366" height="600" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/2f82bab7-636b-4c84-8a03-5fd13f5e7481" /><img width="1366" height="613" alt="Screenshot 2025-09-09 223202" src="https://github.com/user-attachments/assets/709d9308-e56f-47bf-8fc8-da8d5ddfeb8c" />
+
+<img width="1366" height="613" alt="Screenshot 2025-09-09 223202" src="https://github.com/user-attachments/assets/2dba04e2-86f9-420b-ace8-b556d52b5eab" />
+
 
 ## Setup & Run
 
@@ -131,11 +139,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### checkput the screenshots and vdeo demo here
-
-<img width="1366" height="600" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/2f82bab7-636b-4c84-8a03-5fd13f5e7481" /><img width="1366" height="604" alt="Screenshot 2025-09-09 222538" src="https://github.com/user-attachments/assets/08946907-165b-456b-8923-93e478d48972" />
-
-<img width="1366" height="600" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/2f82bab7-636b-4c84-8a03-5fd13f5e7481" /><img width="1366" height="613" alt="Screenshot 2025-09-09 223202" src="https://github.com/user-attachments/assets/709d9308-e56f-47bf-8fc8-da8d5ddfeb8c" />
-
-<img width="1366" height="613" alt="Screenshot 2025-09-09 223202" src="https://github.com/user-attachments/assets/2dba04e2-86f9-420b-ace8-b556d52b5eab" />
