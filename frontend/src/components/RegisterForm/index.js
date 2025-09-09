@@ -70,7 +70,7 @@ const RegisterForm = () => {
                         <RegisterLabelHeading htmlFor="gender">Gender</RegisterLabelHeading>
                         <RegsiterInputText type="text" placeholder="Enter gender" value={gender} id="gender" onChange={onChangeRegisterGender} />
                     </RegisterInputContainer>
-                    <SubmitButton type="submit">Submit</SubmitButton>
+                    <SubmitButton type="submit">Register</SubmitButton>
                     {errMsg && <RegisterErrmsg>{errMsg}</RegisterErrmsg>}
                     {successMsg && <RegisterSuccessMsg>{successMsg}</RegisterSuccessMsg>}
                 </RegisterFormContainer>

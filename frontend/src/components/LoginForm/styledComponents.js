@@ -104,6 +104,7 @@ export const ButtonsContainer = styled.div`
     height: 36px;
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
     margin-bottom: 20px;
 
     @media (width <= 776px) {

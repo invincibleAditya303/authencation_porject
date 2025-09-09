@@ -11,7 +11,7 @@ export const RegisterBgContainer = styled.div`
 
 export const RegisterContainer = styled.div`
     width: 80vw;
-    height: 50vh;
+    height: 55vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ export const RegisterContainer = styled.div`
 
 export const RegisterImage = styled.img`
     width: 35vw;
-    height: 40vh;
+    height: 45vh;
     margin-left: 15px;
     border-radius: 20px;
 
@@ -40,7 +40,7 @@ export const RegisterImage = styled.img`
 
 export const RegisterFormContainer = styled.form`
     width: 40vw;
-    height: 90%;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -110,6 +110,7 @@ export const SubmitButton = styled.button`
     border-radius: 8px;
     border-width: 0px;
     margin-top: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
     outline: none;
 
