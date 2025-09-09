@@ -15,6 +15,16 @@ const RegisterForm = () => {
     const onSubmitRegisterForm = async event => {
         event.preventDefault()
 
+        event.preventDefault()
+        if (
+            !email.trim() ||
+            !password.trim() ||
+            !gender.trim()
+        ) {
+                setErrMsg('Please fill in all fields.')
+                return
+            }
+
         const userDetails = {email, password, gender}
         const apiUrl = `${process.env.REACT_APP_API_URL}/register`
         const options = {
