@@ -24,9 +24,10 @@ Build a foundational login/logout flow with session-based authentication.
 
 <img width="1366" height="600" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/2f82bab7-636b-4c84-8a03-5fd13f5e7481" />
 
-<img width="1366" height="600" alt="Screenshot 2025-09-09 221508" src="https://github.com/user-attachments/assets/2f82bab7-636b-4c84-8a03-5fd13f5e7481" />
 
 <img width="1366" height="613" alt="Screenshot 2025-09-09 223202" src="https://github.com/user-attachments/assets/2dba04e2-86f9-420b-ace8-b556d52b5eab" />
+
+<img width="1366" height="600" alt="Screenshot 2025-09-09 223815" src="https://github.com/user-attachments/assets/9ee65a32-884c-4f87-ad4f-2b14a722781f" />
 
 
 ## Setup & Run
