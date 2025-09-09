@@ -1,3 +1,35 @@
+# Klickks Login & Logout Flow
+
+A simple authentication system using React and Node.js + Express with SQLite.
+
+## Motivation
+
+Build a foundational login/logout flow with session-based authentication.
+
+## Features
+
+- User registration
+- Login with session persistence
+- Logout functionality
+- SQLite with bcrypt-based password hashing
+
+## Technologies Used
+
+- React.js
+- Node.js, Express.js
+- SQLite
+- bcrypt, express-session (or similar)
+
+
+## Setup & Run
+
+**Backend**
+
+```bash
+cd backend
+npm install
+node index.js
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -9,10 +41,17 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open (https://authencation-porject.vercel.app) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Usage
+
+1. Register with an email and password.
+2. Login to set an authentication session.
+3. Access protected pages.
+4. Logout to clear the session cookie.
 
 ### `npm test`
 
